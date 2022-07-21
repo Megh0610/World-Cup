@@ -7,11 +7,29 @@ body {
 }
 
 .header {
-    width: 1250px;
+    width: 90%;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.919);
     border-radius: 20px;
     margin-top: 40px;
+}
+
+.header:hover {
+    animation: my-bg 3s linear infinite;
+}
+
+@keyframes my-bg {
+    0% {
+        background-color: crimson;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: rgba(0, 0, 0, 0.919);
+    }
 }
 
 .container {
